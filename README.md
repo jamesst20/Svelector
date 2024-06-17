@@ -38,6 +38,14 @@ This library is heavily inspired by the popular and well known "Svelecte". I hav
 * Custom options resolver
 * More props to customize the general behavior of the dropdown
 
+## Installing
+
+```
+npm install --save @jamesst20/svelector
+yarn add @jamesst20/svelector
+pnpm add @jamesst20/svelector
+```
+
 
 ## Building
 

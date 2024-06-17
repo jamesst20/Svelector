@@ -2,6 +2,7 @@
   "name": "@jamesst20/svelector",
   "version": "1.0.0-alpha.1",
   "type": "module",
+  "license": "MIT",
   "engines": {
     "node": ">= 20.0"
   },
