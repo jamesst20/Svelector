@@ -97,7 +97,7 @@
 
 <style lang="postcss">
   .sv-control {
-    @apply border border-gray-200 rounded relative text-left w-full cursor-pointer;
+    @apply relative w-full cursor-pointer rounded border border-gray-200 text-left;
 
     &.disabled {
       @apply pointer-events-none bg-gray-200;

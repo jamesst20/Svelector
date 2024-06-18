@@ -74,8 +74,8 @@
     @apply relative;
   }
   .sv-list {
-    @apply absolute  left-0 right-0 z-10 overflow-y-scroll max-h-[18rem];
-    @apply bg-white shadow-lg border rounded;
+    @apply absolute left-0 right-0 z-10 max-h-[18rem] list-none overflow-y-scroll;
+    @apply rounded border bg-white shadow-lg;
 
     &.sv-list-bottom {
       @apply top-full mt-0.5;
@@ -86,7 +86,7 @@
     }
 
     &.sv-list-fullscreen {
-      @apply fixed top-0 bottom-0 left-0 right-0 w-screen h-screen max-h-full;
+      @apply fixed bottom-0 left-0 right-0 top-0 h-screen max-h-full w-screen;
     }
   }
 </style>

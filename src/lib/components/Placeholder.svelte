@@ -38,7 +38,7 @@
 
 <style lang="postcss">
   .sv-selections-container {
-    @apply flex flex-wrap items-center text-gray-600 gap-1 px-3 py-1.5;
+    @apply flex flex-wrap items-center gap-1 px-3 py-1.5 text-gray-600;
 
     .sv-selection {
       @apply flex items-center text-gray-600;
@@ -56,7 +56,7 @@
       }
 
       .sv-delete {
-        @apply font-medium text-xs border-l-2 inline-block h-full px-1.5 py-1 hover:text-gray-400;
+        @apply inline-block h-full border-l-2 px-1.5 py-1 text-xs font-medium hover:text-gray-400;
         @apply cursor-pointer;
       }
     }

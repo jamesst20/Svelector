@@ -48,11 +48,11 @@
 
 <style lang="postcss">
   .sv-list-item {
-    @apply hover:bg-slate-100 px-2 py-1;
+    @apply px-2 py-1 hover:bg-slate-100;
     @apply cursor-pointer select-none;
 
     &.group-item {
-      @apply text-black font-semibold border-y border-gray-200 bg-gray-50 cursor-default;
+      @apply cursor-default border-y border-gray-200 bg-gray-50 font-semibold text-black;
     }
 
     &.text-item {
